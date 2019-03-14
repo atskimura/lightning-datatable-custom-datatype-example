@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/datatable-delete-row-btn": [
+                "datatableDeleteRowBtn/datatableDeleteRowBtn.js"
+            ],
+            "c/my-datatable": [
+                "myDatatable/myDatatable.js"
+            ],
+            "c/my-datatable-demo": [
+                "myDatatableDemo/myDatatableDemo.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ]
+}
